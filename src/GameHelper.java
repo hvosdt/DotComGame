@@ -72,7 +72,7 @@ public class GameHelper {
             temp = String.valueOf(alphabet.charAt(column));
             alphaCells.add(temp.concat(Integer.toString(row)));
             x++;
-            System.out.print(alphaCells.get(x-1)); //для теста показывает координаты
+            //System.out.print(alphaCells.get(x-1)); //для теста показывает координаты
         }
 
         System.out.println("\n");

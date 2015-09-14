@@ -20,6 +20,7 @@ public class DotComBust {
 
         System.out.println("Ваша цель потопить три сайта");
         System.out.println("Pets.com, yandex.ru, google.com");
+        System.out.println("На поле 'ABCDEFG' '1234567'");
         System.out.println("Попытайтесь сделать это за минимальное количество ходов");
 
         for (DotCom dotComToSet : dotComList) {
@@ -49,7 +50,7 @@ public class DotComBust {
             if (result.equals("Попал")) {
                 break;
             }
-            if (result.equals("Потопил")) {
+            if (result.equals("Потопил!")) {
                 dotComList.remove(dotComToTest);
                 break;
             }
